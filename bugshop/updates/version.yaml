@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table arteriaweb_bugshop_'
+    - builder_table_create_arteriaweb_bugshop_.php
+1.0.3:
+    - 'Created table arteriaweb_bugshop_details'
+    - builder_table_create_arteriaweb_bugshop_details.php
+1.0.4:
+    - 'Updated table arteriaweb_bugshop_details'
+    - builder_table_update_arteriaweb_bugshop_details.php

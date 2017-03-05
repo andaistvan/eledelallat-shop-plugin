@@ -1,0 +1,6 @@
+plugin:
+    name: 'arteriaweb.bugshop::lang.plugin.name'
+    description: 'arteriaweb.bugshop::lang.plugin.description'
+    author: Arteriaweb
+    icon: oc-icon-bug
+    homepage: 'http://arteriaweb.hu'
