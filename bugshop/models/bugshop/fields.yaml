@@ -1,0 +1,86 @@
+fields:
+    title:
+        label: 'Állat neve'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    category_name:
+        label: Kategória
+        oc.commentPosition: ''
+        nameFrom: cat_title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    description:
+        label: Leírás
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    featimg:
+        label: Kép
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '200'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    relation1:
+        label: Relation
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    store:
+        label: Raktáron
+        oc.commentPosition: ''
+        nameFrom: store
+        descriptionFrom: description
+        span: left
+        type: relation
+    sizes:
+        label: Méret
+        oc.commentPosition: ''
+        nameFrom: size
+        descriptionFrom: description
+        span: auto
+        type: relation
+    packagings:
+        label: Kiszerelés
+        oc.commentPosition: ''
+        nameFrom: packaging
+        descriptionFrom: description
+        span: left
+        type: relation
+    prices:
+        label: Ár
+        oc.commentPosition: ''
+        nameFrom: price
+        span: auto
+        type: relation
+    quantities:
+        label: Db.
+        oc.commentPosition: ''
+        nameFrom: quantity
+        descriptionFrom: description
+        span: auto
+        type: relation
+    units:
+        label: 'Menny. egység'
+        oc.commentPosition: ''
+        nameFrom: unit
+        span: auto
+        type: relation

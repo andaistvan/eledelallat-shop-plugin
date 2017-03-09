@@ -1,0 +1,4 @@
+title: Details
+modelClass: Arteriaweb\Bugshop\Models\Detail
+toolbar:
+    buttons: reorder_toolbar

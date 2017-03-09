@@ -1,0 +1,11 @@
+name: Helpers
+modelClass: Arteriaweb\Bugshop\Models\Helper
+form: $/arteriaweb/bugshop/models/helper/fields.yaml
+defaultRedirect: arteriaweb/bugshop/helpers
+create:
+    redirect: 'arteriaweb/bugshop/helpers/update/:id'
+    redirectClose: arteriaweb/bugshop/helpers
+update:
+    redirect: arteriaweb/bugshop/helpers
+    redirectClose: arteriaweb/bugshop/helpers
+preview: {  }

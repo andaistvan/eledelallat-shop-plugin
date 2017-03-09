@@ -1,0 +1,14 @@
+fields:
+    cat_title:
+        label: 'Kategória megn.'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Text
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: cat_title
+            type: slug
+        type: text

@@ -1,0 +1,4 @@
+title: Helpers
+modelClass: Arteriaweb\Bugshop\Models\Helper
+toolbar:
+    buttons: reorder_toolbar

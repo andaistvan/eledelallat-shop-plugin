@@ -21,3 +21,6 @@
 1.0.8:
     - 'Created table arteriaweb_bugshop_helpers'
     - builder_table_create_arteriaweb_bugshop_helpers.php
+1.0.9:
+    - 'Updated table arteriaweb_bugshop_details'
+    - builder_table_update_arteriaweb_bugshop_details_4.php

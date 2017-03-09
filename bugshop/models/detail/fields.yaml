@@ -1,0 +1,37 @@
+fields:
+    store:
+        label: Raktáron
+        span: left
+        default: 1
+        type: switch
+    packaging:
+        label: Kiszerelés
+        oc.commentPosition: ''
+        nameFrom: type_name
+        descriptionFrom: 'helper - kiszerelés neve'
+        span: left
+        required: 1
+        type: relation
+    size:
+        label: Méret
+        oc.commentPosition: ''
+        nameFrom: type_name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    price:
+        label: 'Ár (nettó)'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    unit:
+        label: 'Egység / db'
+        oc.commentPosition: ''
+        nameFrom: type_name
+        span: auto
+        type: relation
+    quantity:
+        label: Db.
+        oc.commentPosition: ''
+        span: auto
+        type: text

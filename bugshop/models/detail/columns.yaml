@@ -1,0 +1,25 @@
+columns:
+    id:
+        label: id
+        type: number
+    price:
+        label: price
+        type: number
+    quantity:
+        label: quantity
+        type: number
+    packaging:
+        label: packaging
+        type: text
+    size:
+        label: size
+        type: text
+    unit:
+        label: unit
+        type: text
+    slug:
+        label: slug
+        type: text
+    store:
+        label: store
+        type: switch

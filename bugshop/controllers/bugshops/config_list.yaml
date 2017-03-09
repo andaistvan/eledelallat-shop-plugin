@@ -1,0 +1,11 @@
+title: Bugshops
+modelClass: Arteriaweb\Bugshop\Models\Bugshop
+list: $/arteriaweb/bugshop/models/bugshop/columns.yaml
+recordUrl: 'arteriaweb/bugshop/bugshops/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

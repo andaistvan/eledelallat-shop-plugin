@@ -1,0 +1,11 @@
+name: Details
+modelClass: Arteriaweb\Bugshop\Models\Detail
+form: $/arteriaweb/bugshop/models/detail/fields.yaml
+defaultRedirect: arteriaweb/bugshop/details
+create:
+    redirect: 'arteriaweb/bugshop/details/update/:id'
+    redirectClose: arteriaweb/bugshop/details
+update:
+    redirect: arteriaweb/bugshop/details
+    redirectClose: arteriaweb/bugshop/details
+preview: {  }

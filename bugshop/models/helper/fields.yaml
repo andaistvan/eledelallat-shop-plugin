@@ -1,0 +1,23 @@
+fields:
+    type:
+        label: 'Típus kategória'
+        oc.commentPosition: ''
+        options:
+            Kiszerelés: kiszereles
+            Méret: meret
+            Egység: egyseg
+        span: auto
+        type: dropdown
+    type_name:
+        label: Megnevezés
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: 'Megnevezés slug'
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: type_name
+            type: slug
+        type: text

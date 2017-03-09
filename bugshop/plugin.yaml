@@ -4,3 +4,18 @@ plugin:
     author: Arteriaweb
     icon: oc-icon-bug
     homepage: 'http://arteriaweb.hu'
+navigation:
+    main-menu-item:
+        label: Store
+        url: arteriaweb/bugshop/bugshops
+        icon: icon-bug
+        order: '4'
+        sideMenu:
+            side-menu-item:
+                label: Egységek
+                url: arteriaweb/bugshop/helpers
+                icon: icon-cogs
+            side-menu-item2:
+                label: Kategória
+                url: arteriaweb/bugshop/categories
+                icon: icon-list
