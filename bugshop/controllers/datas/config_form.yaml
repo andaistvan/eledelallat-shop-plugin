@@ -1,0 +1,11 @@
+name: Datas
+modelClass: Arteriaweb\Bugshop\Models\Data
+form: $/arteriaweb/bugshop/models/data/fields.yaml
+defaultRedirect: arteriaweb/bugshop/datas
+create:
+    redirect: 'arteriaweb/bugshop/datas/update/:id'
+    redirectClose: arteriaweb/bugshop/datas
+update:
+    redirect: arteriaweb/bugshop/datas
+    redirectClose: arteriaweb/bugshop/datas
+preview: {  }

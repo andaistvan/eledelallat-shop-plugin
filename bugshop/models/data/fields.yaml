@@ -1,0 +1,16 @@
+fields:
+    datatype:
+        label: 'adat típus'
+        oc.commentPosition: ''
+        options:
+            packaging: kiszerelés
+            size: méret
+            unit: egység
+        span: auto
+        required: 1
+        type: dropdown
+    dataname:
+        label: 'Adat megnevezés'
+        oc.commentPosition: ''
+        span: auto
+        type: text

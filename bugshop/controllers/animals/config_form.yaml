@@ -1,0 +1,11 @@
+name: Animals
+modelClass: Arteriaweb\Bugshop\Models\Animal
+form: $/arteriaweb/bugshop/models/animal/fields.yaml
+defaultRedirect: arteriaweb/bugshop/animals
+create:
+    redirect: 'arteriaweb/bugshop/animals/update/:id'
+    redirectClose: arteriaweb/bugshop/animals
+update:
+    redirect: arteriaweb/bugshop/animals
+    redirectClose: arteriaweb/bugshop/animals
+preview: {  }

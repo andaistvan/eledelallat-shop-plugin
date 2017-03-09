@@ -1,0 +1,4 @@
+title: Animals
+modelClass: Arteriaweb\Bugshop\Models\Animal
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,20 @@
+fields:
+    name:
+        label: Megnevezés
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: Leírás
+        size: small
+        oc.commentPosition: ''
+        span: full
+        type: textarea

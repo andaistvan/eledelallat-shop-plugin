@@ -1,26 +1,8 @@
 1.0.1:
     - 'Initialize plugin.'
 1.0.2:
-    - 'Created table arteriaweb_bugshop_'
-    - builder_table_create_arteriaweb_bugshop_.php
+    - 'Created table arteriaweb_bugshop_animal'
+    - builder_table_create_arteriaweb_bugshop_animal.php
 1.0.3:
-    - 'Created table arteriaweb_bugshop_details'
-    - builder_table_create_arteriaweb_bugshop_details.php
-1.0.4:
-    - 'Updated table arteriaweb_bugshop_details'
-    - builder_table_update_arteriaweb_bugshop_details.php
-1.0.5:
-    - 'Updated table arteriaweb_bugshop_details'
-    - builder_table_update_arteriaweb_bugshop_details_2.php
-1.0.6:
-    - 'Created table arteriaweb_bugshop_categories'
-    - builder_table_create_arteriaweb_bugshop_categories.php
-1.0.7:
-    - 'Updated table arteriaweb_bugshop_details'
-    - builder_table_update_arteriaweb_bugshop_details_3.php
-1.0.8:
-    - 'Created table arteriaweb_bugshop_helpers'
-    - builder_table_create_arteriaweb_bugshop_helpers.php
-1.0.9:
-    - 'Updated table arteriaweb_bugshop_details'
-    - builder_table_update_arteriaweb_bugshop_details_4.php
+    - 'Created table arteriaweb_bugshop_data'
+    - builder_table_create_arteriaweb_bugshop_data.php

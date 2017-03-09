@@ -1,4 +1,0 @@
-title: Categories
-modelClass: Arteriaweb\Bugshop\Models\Category
-toolbar:
-    buttons: reorder_toolbar

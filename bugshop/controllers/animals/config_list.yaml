@@ -1,0 +1,11 @@
+title: Animals
+modelClass: Arteriaweb\Bugshop\Models\Animal
+list: $/arteriaweb/bugshop/models/animal/columns.yaml
+recordUrl: 'arteriaweb/bugshop/animals/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

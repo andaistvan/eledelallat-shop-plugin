@@ -3,19 +3,14 @@ plugin:
     description: 'arteriaweb.bugshop::lang.plugin.description'
     author: Arteriaweb
     icon: oc-icon-bug
-    homepage: 'http://arteriaweb.hu'
+    homepage: ''
 navigation:
     main-menu-item:
-        label: Store
-        url: arteriaweb/bugshop/bugshops
+        label: Bugshop
+        url: arteriaweb/bugshop/animals
         icon: icon-bug
-        order: '4'
         sideMenu:
             side-menu-item:
-                label: Egységek
-                url: arteriaweb/bugshop/helpers
-                icon: icon-cogs
-            side-menu-item2:
-                label: Kategória
-                url: arteriaweb/bugshop/categories
-                icon: icon-list
+                label: Adatok
+                url: arteriaweb/bugshop/datas
+                icon: icon-list-ul

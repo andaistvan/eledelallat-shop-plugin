@@ -1,0 +1,12 @@
+title: Datas
+modelClass: Arteriaweb\Bugshop\Models\Data
+list: $/arteriaweb/bugshop/models/data/columns.yaml
+recordUrl: 'arteriaweb/bugshop/datas/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+showSorting: 1
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

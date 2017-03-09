@@ -1,0 +1,4 @@
+title: Datas
+modelClass: Arteriaweb\Bugshop\Models\Data
+toolbar:
+    buttons: reorder_toolbar

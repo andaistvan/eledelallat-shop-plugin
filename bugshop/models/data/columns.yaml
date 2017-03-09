@@ -1,0 +1,10 @@
+columns:
+    datatype:
+        label: datatype
+        type: text
+    dataname:
+        label: dataname
+        type: text
+    slug:
+        label: slug
+        type: text
