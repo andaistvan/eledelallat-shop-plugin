@@ -8,7 +8,7 @@ use Model;
 class Animal extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-    
+
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
@@ -24,5 +24,5 @@ class Animal extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'arteriaweb_bugshop_animal';
+    public $table = 'arteriaweb_bugshop_animals';
 }

@@ -3,11 +3,14 @@
 use Backend\Classes\Controller;
 use BackendMenu;
 
+
 class Animals extends Controller
 {
     public $implement = ['Backend\Behaviors\ListController','Backend\Behaviors\FormController','Backend\Behaviors\ReorderController'];
-    
+
     public $listConfig = 'config_list.yaml';
+
+
     public $formConfig = 'config_form.yaml';
     public $reorderConfig = 'config_reorder.yaml';
 
@@ -16,4 +19,5 @@ class Animals extends Controller
         parent::__construct();
         BackendMenu::setContext('Arteriaweb.Bugshop', 'main-menu-item', 'side-menu-item');
     }
+
 }

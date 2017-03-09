@@ -6,3 +6,18 @@
 1.0.3:
     - 'Created table arteriaweb_bugshop_data'
     - builder_table_create_arteriaweb_bugshop_data.php
+1.0.4:
+    - 'Updated table arteriaweb_bugshop_animal'
+    - builder_table_update_arteriaweb_bugshop_animals.php
+1.0.5:
+    - 'Updated table arteriaweb_bugshop_data'
+    - builder_table_update_arteriaweb_bugshop_datas.php
+1.0.6:
+    - 'animals - datas table done'
+    - migration106.php
+1.0.7:
+    - 'Created table arteriaweb_bugshop_details'
+    - builder_table_create_arteriaweb_bugshop_details.php
+1.0.8:
+    - 'Updated table arteriaweb_bugshop_details'
+    - builder_table_update_arteriaweb_bugshop_details.php
